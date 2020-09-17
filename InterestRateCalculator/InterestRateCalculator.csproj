@@ -59,6 +59,12 @@
       <DependentUpon>CalculateInterest.cs</DependentUpon>
     </Compile>
     <Compile Include="Converter.cs" />
+    <Compile Include="InsurancePlanCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsurancePlanCalculator.Designer.cs">
+      <DependentUpon>InsurancePlanCalculator.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interestdata.cs" />
     <Compile Include="StartUpForm.cs">
       <SubType>Form</SubType>
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CalculateInterest.resx">
       <DependentUpon>CalculateInterest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsurancePlanCalculator.resx">
+      <DependentUpon>InsurancePlanCalculator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartUpForm.resx">
       <DependentUpon>StartUpForm.cs</DependentUpon>

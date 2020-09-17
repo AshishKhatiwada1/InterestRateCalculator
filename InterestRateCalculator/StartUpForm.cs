@@ -30,5 +30,12 @@ namespace InterestRateCalculator
             this.Hide();
             calculateCompundInterest.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            InsurancePlanCalculator insurancePlanCalculator = new InsurancePlanCalculator();
+            this.Hide();
+            insurancePlanCalculator.ShowDialog();
+        }
     }
 }
