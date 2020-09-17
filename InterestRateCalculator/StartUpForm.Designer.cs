@@ -37,7 +37,7 @@
             // 
             this.btnInterest.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInterest.Location = new System.Drawing.Point(2, 32);
-            this.btnInterest.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnInterest.Margin = new System.Windows.Forms.Padding(2);
             this.btnInterest.Name = "btnInterest";
             this.btnInterest.Size = new System.Drawing.Size(432, 390);
             this.btnInterest.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.btnCompound.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCompound.Location = new System.Drawing.Point(469, 32);
-            this.btnCompound.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCompound.Margin = new System.Windows.Forms.Padding(2);
             this.btnCompound.Name = "btnCompound";
             this.btnCompound.Size = new System.Drawing.Size(425, 390);
             this.btnCompound.TabIndex = 2;
@@ -60,9 +60,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(2, 452);
+            this.button1.Location = new System.Drawing.Point(2, 441);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(892, 41);
+            this.button1.Size = new System.Drawing.Size(892, 52);
             this.button1.TabIndex = 3;
             this.button1.Text = "Calculate Insurance Sum";
             this.button1.UseVisualStyleBackColor = true;
@@ -76,7 +76,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnCompound);
             this.Controls.Add(this.btnInterest);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "StartUpForm";
             this.Text = "Interest Calculator";
             this.ResumeLayout(false);

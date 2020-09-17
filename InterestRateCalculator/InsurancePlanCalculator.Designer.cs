@@ -285,16 +285,16 @@
             // 
             // tbTotalYear
             // 
-            this.tbTotalYear.Location = new System.Drawing.Point(127, 49);
+            this.tbTotalYear.Location = new System.Drawing.Point(171, 47);
             this.tbTotalYear.Margin = new System.Windows.Forms.Padding(2);
             this.tbTotalYear.Name = "tbTotalYear";
-            this.tbTotalYear.Size = new System.Drawing.Size(106, 20);
+            this.tbTotalYear.Size = new System.Drawing.Size(126, 20);
             this.tbTotalYear.TabIndex = 13;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(-1, 47);
+            this.label10.Location = new System.Drawing.Point(-1, 50);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(93, 13);
@@ -325,7 +325,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(110, 47);
+            this.label17.Location = new System.Drawing.Point(154, 51);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(13, 13);
